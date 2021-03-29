@@ -32,15 +32,18 @@ In this Data Preprocessing section, you are required to implement the following 
 <p>In this section, you are to implement three components, including Word Embedding module, Lexicon Embedding module, and Bi-directional RNN Sequence model. For training, you are free to choose hyperparameters <b><i>[Lab5]</i></b> (e.g. size of vector for embeddings, learning rate, epochs, etc.)</p>
 
 <h3>1)Word Embedding</h3>
-First, you are asked to build the word embedding model (for representing word vectors, such as word2vec-CBOW, word2vec-Skip gram, fastText, and Glove) for the input embedding of your sequence model <b><i>[Lab2]</i></b> . Note that we used a one-hot vector as an input for the sequence model <i>in the Lab3 and Lab4</i>. In order to build the word embedding model, you are required to implement the following functions:
+First, you are asked to build the word embedding model (for representing word vectors, such as word2vec-CBOW, word2vec-Skip gram, fastText, and Glove) for the input embedding of your sequence model <b><i>[Lab2]</i></b>. Note that we used a one-hot vector as an input for the sequence model <i>in the Lab3 and Lab4</i>. In order to build the word embedding model, you are required to implement the following functions:
 <ul>
   <li><b>Preprocess data for word embeddings</b>: You are to use and preprocess NLTK Twitter dataset (the one provided in the <i>Section 1</i>) for word embeddings  <b><i>[Lab2, Lab3]</i></b>. This can be different from the preprocessing technique that you used in Section 1. You can use both training and testing dataset in order to train the word embedding. <b>(Justify your decision)</b> </li>
   
-  <li><b>Build training model for word embeddings</b>: You are to build the training model for word embeddings. You are required to articulate the hyperparameters you chose (size of vector for embeddings, learning rate, etc.). Note that any word embeddings model (e.g. word2vec-CBOW, word2vec-Skip gram) can be applied. - refer to lab3 (PyTorch) [Justify your decision]</li>
+  <li><b>Build training model for word embeddings</b>: You are to build the training model for word embeddings. You are required to articulate the hyperparameters <b><i>[Lab4]</i></b> you chose (size of vector for embeddings, learning rate, etc.). Note that any word embeddings model <b><i>[Lab2]</i></b> (e.g. word2vec-CBOW, word2vec-Skip gram, fasttext, glove) can be applied. <b>(Justify your decision)</b> </li>
   
-  <li>Train model: You are to train the model in PyTorch.</li>
+  <li><b>Train model</b>: You are to train the model in PyTorch.</li>
 </ul>
   
+
+<h3>2)Word Embedding</h3>
+First, you are asked to b
 
 
 
