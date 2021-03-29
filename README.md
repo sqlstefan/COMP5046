@@ -126,4 +126,4 @@ For example, for section 1 (preprocess data), you need to describe which pre-pro
   <b>Answer:</b> The assignment specification is extremely detailed. The marking will be conducted based on the specification.
 </p>
 
-<h5>If you have any question, please come to LiveQA and post it in the Edstem anytime</h5>
+<h5>If you have any question, please come to LiveQA and post it in the Edstem anytime!</h5>
