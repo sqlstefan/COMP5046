@@ -6,6 +6,8 @@
 
 <br>
 
+<h2>Submission Due: May 2nd, 2021 (11:59PM)</h2>
+
 
 <h1>Sentiment Analysis using Recurrent Neural Networks</h1>
 <p><b>In this assignment1, we will focus on developing sentiment analysis model using Recurrent Neural Networks (RNN). </b><br/>
