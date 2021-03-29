@@ -18,27 +18,29 @@ The dataset contains twitter posts (tweets) along with their associated binary s
 <p>
 In this Data Preprocessing section, you are required to implement the following functions:</br>
 <ul>
-  <li><b>Preprocess data</b>: You are asked to pre-process the training set by integrating several text pre-processing techniques <b><i>[Lab5]</i></b> (e.g. tokenisation, removing numbers, converting to lowercase, removing stop words, stemming, etc.). You should justify the reason why you apply the specific preprocessing techniques<b>(Justify your decision)</b>
+  <li><b>Preprocess data</b>: You are asked to pre-process the training set by integrating several text pre-processing techniques <b><i>[Lab5]</i></b> (e.g. tokenisation, removing numbers, converting to lowercase, removing stop words, stemming, etc.). You should justify the reason why you apply the specific preprocessing techniques <b>(Justify your decision)</b>
   </li>
  </ul>
 </p>
 
 
+<br/>
+<br/>
+
+
 <h2>2. Model Implementation</h2>
-<p>In the ‘Model Implementation’ section, you are to implement three components: Word Embedding, Lexicon Embedding, and Bi-directional RNN Sequence model. For training, you are free to choose hyperparameters (e.g. size of vector for embeddings, learning rate, epochs, etc.)</p>
+<p>In this section, you are to implement three components, including Word Embedding module, Lexicon Embedding module, and Bi-directional RNN Sequence model. For training, you are free to choose hyperparameters <b><i>[Lab5]</i></b> (e.g. size of vector for embeddings, learning rate, epochs, etc.)</p>
 
 <h3>1)Word Embedding</h3>
-First, you are asked to build the word embedding model (for representing word vectors, such as word2vec-CBOW, word2vec-Skip gram, fastText, and Glove) for the input embedding of your sequence model. Note that we used a one-hot vector as an input for the sequence model in the Lab3 and Lab4. In order to build the word embedding model, you are required to implement the following functions:
+First, you are asked to build the word embedding model (for representing word vectors, such as word2vec-CBOW, word2vec-Skip gram, fastText, and Glove) for the input embedding of your sequence model <b><i>[Lab2]</i></b> . Note that we used a one-hot vector as an input for the sequence model <i>in the Lab3 and Lab4</i>. In order to build the word embedding model, you are required to implement the following functions:
 <ul>
-  <li><b>Preprocess data for word embeddings</b>: You are to use and preprocess Twitter_NLTK dataset (the one provided in the section 1) for word embeddings - refer to lab2 and lab3. This can be different from the preprocessing technique that you used in Section 1. You can use both training and testing dataset in order to train the word embedding.  [Justify your decision]</li>
+  <li><b>Preprocess data for word embeddings</b>: You are to use and preprocess NLTK Twitter dataset (the one provided in the <i>Section 1</i>) for word embeddings  <b><i>[Lab2, Lab3]</i></b>. This can be different from the preprocessing technique that you used in Section 1. You can use both training and testing dataset in order to train the word embedding. <b>(Justify your decision)</b> </li>
   
   <li><b>Build training model for word embeddings</b>: You are to build the training model for word embeddings. You are required to articulate the hyperparameters you chose (size of vector for embeddings, learning rate, etc.). Note that any word embeddings model (e.g. word2vec-CBOW, word2vec-Skip gram) can be applied. - refer to lab3 (PyTorch) [Justify your decision]</li>
   
-  <li>Train model: You are to implement the model in PyTorch.</li>
-
+  <li>Train model: You are to train the model in PyTorch.</li>
 </ul>
   
-
 
 
 
