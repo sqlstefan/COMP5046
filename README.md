@@ -10,7 +10,9 @@ Sentiment analysis <b>[Lecture5]</b> is contextual mining of text which identifi
 <i>For your information, the detailed information for each implementation step was specified in the following sections. Note that lab exercises would be a good starting point for the assignment. The useful lab exercises are specified in each section.</i></p>
 
 <br/>
+<hr>
 <br/>
+
 
 <h2>1. Data Preprocessing</h2>
 <p>In this assignment, you are to use the <b>NLTK's Twitter_Sample</b> dataset. Twitter is well-known microblog service that allows public data to be collected via APIs. NLTK's twitter corpus currently contains a sample of Tweets retrieved from the Twitter Streaming API. If you want to know the more detailed info for the nltk.corpus, please check the <a href="https://www.nltk.org/howto/corpus.html">nltk corpus website</a>.<br/>
@@ -25,11 +27,12 @@ In this Data Preprocessing section, you are required to implement the following 
 
 
 <br/>
+<hr>
 <br/>
 
 
 <h2>2. Model Implementation</h2>
-<p>In this section, you are to implement three components, including Word Embedding module, Lexicon Embedding module, and Bi-directional RNN Sequence model. For training, you are free to choose hyperparameters <b><i>[Lab5]</i></b> (e.g. dimension of embeddings, learning rate, epochs, etc.)</p>
+<p>In this section, you are to implement three components, including Word Embedding module, Lexicon Embedding module, and Bi-directional RNN Sequence Model. For training, you are free to choose hyperparameters <b><i>[Lab2,Lab4,Lab5]</i></b> (e.g. dimension of embeddings, learning rate, epochs, etc.)</p>
 
 
 <h3>1)Word Embedding</h3>
@@ -37,7 +40,7 @@ First, you are asked to build the word embedding model (for representing word ve
 <ul>
   <li><b>Preprocess data for word embeddings</b>: You are to use and preprocess NLTK Twitter dataset (the one provided in the <i>Section 1</i>) for word embeddings  <b><i>[Lab2, Lab3]</i></b>. This can be different from the preprocessing technique that you used in Section 1. You can use both training and testing dataset in order to train the word embedding. <b>(Justify your decision)</b> </li>
   
-  <li><b>Build training model for word embeddings</b>: You are to build the training model for word embeddings. You are required to articulate the hyperparameters <b><i>[Lab4]</i></b> you chose (dimension of embeddings, window size, learning rate, etc.). Note that any word embeddings model <b><i>[Lab2]</i></b> (e.g. word2vec-CBOW, word2vec-Skip gram, fasttext, glove) can be applied. <b>(Justify your decision)</b> </li>
+  <li><b>Build training model for word embeddings</b>: You are to build the training model for word embeddings. You are required to articulate the hyperparameters <b><i>[Lab2]</i></b> you chose (dimension of embeddings, window size, learning rate, etc.). Note that any word embeddings model <b><i>[Lab2]</i></b> (e.g. word2vec-CBOW, word2vec-Skip gram, fasttext, glove) can be applied. <b>(Justify your decision)</b> </li>
   
   <li><b>Train model</b>: You are to train the model in PyTorch.</li>
 </ul>
@@ -50,19 +53,39 @@ This 0,1,2 categories will be used for the input for the Section 2.3 Bi-directio
 NOTE: If you want to use more than one-dimensional or not using categorical embedding, please <b>(Justify your decision)</b> </p>
 
 
-<h3>3)</h3>
+<h3>3)Bi-directional RNN Sequence Model</h3>
+Finally, you are asked to build the Many-to-One (N to 1) Sequence model in order to detect the sentiment/emotion. Note that your model should be the best model selected from the evaluation (will be discussed in the Section 3. Evaluation). You are required to implement the following functions:
+<ul>
+  <li><b>Apply/Import Word and Lexicon Embedding as an input</b>: You are to apply the trained word embedding and lexicon embedding to the sequence model</li>
+  
+  <li><b>Build training sequence model</b>: You are to build the Bi-directional RNN-based (Bi-RNN or Bi-LSTM or Bi-GRU) Many-to-One (N to One) sequence model (N: word, One: Sentiment - Positive or Negative). You are required to describe how hyperparameters <b><i>[Lab4,Lab5]</i></b> (the Number of Epochs, learning rate, etc.) were decided. <b>(Justify your decision)</b> </li>
+  
+  <li><b>Train model</b>: While the model is being trained, you are required to display the Training Loss and the Number of Epochs. <b><i>[Lab4,Lab5]</i></b> </li>
+
+
+
 While the model is being trained, you are required to display the Training Loss and the Number of Epochs. 
 
+<br/>
+<hr>
+<br/>
 
 
 <h2>3. Evaluation</h2>
 <p>In this assignment, you are to use the [dataset description]</p>
+
+<br/>
+<hr>
+<br/>
 
 
 <h2>4. Documentation</h2>
 <p>In the section 1,2, and 3, you are required to describe and justify any decisions you made for the final implementation. You can find the tag ‘[Justify your decision]’ for the point that you should justify the purpose of applying the specific technique/model.<br/>
 For example, for section 1 (preprocess data), you need to describe which pre-processing techniques (removing numbers, converting to lowercase, removing stop words, stemming, etc.) were conducted and justify your decision (the purpose of choosing a specific pre-processing techniques, and benefit of using that technique or the integration of techniques for your AI) in your ipynb file</p>
   
+<br/>
+<hr>
+<br/>
 
 
 <h2>Submission Instruction</h2>
