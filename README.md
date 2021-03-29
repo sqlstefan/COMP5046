@@ -9,6 +9,8 @@
 Sentiment analysis <b>[Lecture5]</b> is contextual mining of text which identifies and extracts subjective information in source material, and helps a business to understand the social sentiment of their brand, product or service while monitoring online conversations.<br/><br/>
 <i>For your information, the detailed information for each implementation step was specified in the following sections. Note that lab exercises would be a good starting point for the assignment. The useful lab exercises are specified in each section.</i></p>
 
+<br/>
+<br/>
 
 <h2>1. Data Preprocessing</h2>
 <p>In this assignment, you are to use the NLTK's Twitter_Sample dataset. Twitter is well-known microblog service that allows public data to be collected via APIs. NLTK's twitter corpus currently contains a sample of Tweets retrieved from the Twitter Streaming API. If you want to know the more detailed info for the nltk.corpus, please check the <a href="https://www.nltk.org/howto/corpus.html">nltk website</a>.<br/>
