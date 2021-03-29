@@ -108,7 +108,7 @@ For example, for section 1 (preprocess data), you need to describe which pre-pro
 
 
 <h2>Submission Instruction</h2>
-<p>Submit a ipynb file - (file name: your_unikey_COMP5046_Ass1.ipynb) that contains all above sections(Section 1,2,3, and 4).<br/>
+<p>Submit an ipynb file - (file name: your_unikey_COMP5046_Ass1.ipynb) that contains all above sections(Section 1,2,3, and 4).<br/>
  The ipynb template can be found in the <a href="https://colab.research.google.com/drive/1A6azpUOCUU923JF5B4v7t2pNSzLAQ20t?usp=sharing">Assignment 1 template</a></p>
 
 <br/>
