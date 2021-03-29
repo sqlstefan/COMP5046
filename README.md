@@ -1,5 +1,7 @@
 # COMP5046 Assignment 1
 
+<h1>Sentiment Analysis using Recurrent Neural Networks</h1>
+<p>In this assignment1, we will focus on developing sentiment analysis model using Recurrent Neural Networks(RNN). Sentiment analysis is contextual mining of text which identifies and extracts subjective information in source material, and helps a business to understand the social sentiment of their brand, product or service while monitoring online conversations.</p>
 
 
 <h2>Data Preprocessing</h2>
