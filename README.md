@@ -74,7 +74,7 @@ Finally, you are asked to build the Many-to-One (N to 1) Sequence model in order
 
 <h2>3. Evaluation</h2>
 <p>In this assignment, you are to use the [dataset description]</p>
-
+ddd
 <br/>
 <hr>
 <br/>
