@@ -75,17 +75,16 @@ Finally, you are asked to build the Many-to-One (N to 1) Sequence model in order
 
 
 <h2>3. Evaluation</h2>
-<p>After completing all model training (in Section 1 and 2), you should evaluate two points:</p>
+<p>After completing all model training (in Section 1 and 2), you should evaluate two points: 1)Word Embedding Evaluation and 2)Sentiment Analysis Performance Prediction (Apply the trained model to the test set)</p>
 <ol>
-  <li><b>Word Embedding Evaluation</b>: Intrinsic Evaluation</li>
+  <li><b>Word Embedding Evaluation</b>: Intrinsic Evaluation <b><i>[Lecture3]</i></b> - Apply Semantic-Syntactic word relationship tests for understanding of a wide variety of relationships. The example code is provided <a href="https://colab.research.google.com/drive/1VdNkQpeI6iLPHeTsGe6sdHQFcGyV1Kmi?usp=sharing">here</a> (This is discussed and explained in the <b><i>[Lecture5 Recording]</i></b> )</li>
   
-  <li><b>Performance Evaluation</b>: You are to represent the precision, recall, and f1 - refer to lab4 of your model in the table [Explain the performance]</li>
+  <li><b>Performance Evaluation</b>: You are to represent the precision, recall, and f1 <b><i>[Lab4]</i></b> of your model in the table <b>(Explain the performance)</b></li>
   
-  <li><b>Hyperparameter Testing</b>: You are to provide the line graph, which shows the hyperparameter testing (with the test dataset) and explain the optimal number of epochs based on the learning rate you choose. You can have multiple graphs with different learning rates. In the graph, the x-axis would be # of epoch and the y-axis would be the f1. [Explain the performance]</li>
+  <li><b>Hyperparameter Testing</b>: You are to provide the line graph, which shows the hyperparameter testing (with the test dataset) and explain the optimal number of epochs based on the learning rate you choose. You can have multiple graphs with different learning rates. In the graph, the x-axis would be # of epoch and the y-axis would be the f1.  <b>(Explain the performance)</b></li>
   
-  apply the trained model to the test set. (Note: we just provide only train and test sets. No need to create validation dataset or do the cross-validation)
 </p>
-ddd
+
 <br/>
 <hr>
 <br/>
