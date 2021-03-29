@@ -43,7 +43,7 @@ In this Data Preprocessing section, you are required to implement the following 
 
 <img src="https://github.com/usydnlp/COMP5046/blob/main/img/COMP5046_A1_img1.png" width="500px"/>
 
-<p>[Lecture5]</p>
+<p>The model architecture can be found in the [Lecture5]</p>
 
 <h3>1)Word Embedding <b>(2 marks)</b></h3>
 First, you are asked to build the word embedding model (for representing word vectors, such as word2vec-CBOW, word2vec-Skip gram, fastText, and Glove) for the input embedding of your sequence model <b><i>[Lab2]</i></b>. Note that we used a one-hot vector as an input for the sequence model <i>in the Lab3 and Lab4</i>. In order to build the word embedding model, you are required to implement the following functions:
