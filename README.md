@@ -73,7 +73,7 @@ Finally, you are asked to build the Many-to-One (N to 1) Sequence model in order
   <li><b>Train model</b>: While the model is being trained, you are required to display the Training Loss and the Number of Epochs. <b><i>[Lab4,Lab5]</i></b> </li>
 </ul>
 
-<h5>Note that your assignment 1 will not be marked if you do not display the Training Loss and the Number of Epochs in the Assignment 1 ipynb.</h5>
+<h5>Note that it will not be marked if you do not display the Training Loss and the Number of Epochs in the Assignment 1 ipynb.</h5>
 
 
 
@@ -92,6 +92,9 @@ Finally, you are asked to build the Many-to-One (N to 1) Sequence model in order
   <li><b>Hyperparameter Testing (2 marks)</b>: You are to provide the line graph, which shows the hyperparameter testing (with the test dataset) and explain the optimal number of epochs based on the learning rate you choose. You can have multiple graphs with different learning rates. In the graph, the x-axis would be # of epoch and the y-axis would be the f1.  <b>(Explain the performance)</b></li>
   
 </p>
+
+<h5>Note that it will not be marked if you do not display it in the ipynb file.</h5>
+
 
 <br/>
 <hr>
