@@ -109,3 +109,10 @@ For example, for section 1 (preprocess data), you need to describe which pre-pro
 <p>
   <b>Question:</b> What do I need to write in the justification? How much do I need to articulate?<br/>
   <b>Answer:</b> As you can see the 'Read me' section in the ipynb Assingment 1 template, visualizing the comparison of different testing results is a good to justify your decision. You can find another way (other than comparing different models) as well - like showing any theoretical comparison or using different hyper parameters </p>
+  
+<p>
+  <b>Question:</b> Is there any marking scheme/marking criteria available for assignment 1?<br/>
+  <b>Answer:</b> The assignment specification is extremely detailed. The marking will be conducted based on the specification.
+</p>
+
+<h5>If you have any question, please come to LiveQA and post it in the Edstem anytime</h5>
