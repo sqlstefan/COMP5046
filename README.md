@@ -111,12 +111,16 @@ For example, for section 1 (preprocess data), you need to describe which pre-pro
 <p>Submit a ipynb file - (file name: your_unikey_COMP5046_Ass1.ipynb) that contains all above sections(Section 1,2,3, and 4).<br/>
  The ipynb template can be found in the <a href="https://colab.research.google.com/drive/1A6azpUOCUU923JF5B4v7t2pNSzLAQ20t?usp=sharing">Assignment 1 template</a></p>
 
-  
+<br/>
+<hr>
+<br/>
+
+
 <h2>FAQ</h2>
 <p>
   <b>Question:</b> What do I need to write in the justification? How much do I need to articulate?<br/>
   <b>Answer:</b> As you can see the 'Read me' section in the ipynb Assingment 1 template, visualizing the comparison of different testing results is a good to justify your decision. You can find another way (other than comparing different models) as well - like showing any theoretical comparison or using different hyper parameters </p>
-  
+
 <p>
   <b>Question:</b> Is there any marking scheme/marking criteria available for assignment 1?<br/>
   <b>Answer:</b> The assignment specification is extremely detailed. The marking will be conducted based on the specification.
