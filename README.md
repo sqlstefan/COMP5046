@@ -4,6 +4,7 @@
 <b>(Justify your decision) = Please justify your decision/selection in the documentation</b>
 <b>(Explain the performance) = Please explain the trend of performance, and the reason (or your opinion) why the trends show like that</b>
 
+<br>
 
 
 <h1>Sentiment Analysis using Recurrent Neural Networks</h1>
@@ -100,12 +101,7 @@ For example, for section 1 (preprocess data), you need to describe which pre-pro
 
 
 <h2>Submission Instruction</h2>
-<p>The following are the submission files and description of each files</p><br/>
-<ul>
-  <li>ipynb file - (file name: your_unikey_COMP5046_Ass1.ipynb)</li>
-  <li>model zip file</li>
-  <li>l zip file</li>
-</ul>
-
-<p>Submit a ipynb file that contains all above sections(Section 1,2,3,4 and 5).<br/>
-  The ipynb template can be found in the <a href="https://colab.research.google.com/drive/1A6azpUOCUU923JF5B4v7t2pNSzLAQ20t?usp=sharing">Assignment 1 template</a></p>
+<p>Submit a ipynb file - (file name: your_unikey_COMP5046_Ass1.ipynb) that contains all above sections(Section 1,2,3,4 and 5).<br/>
+ The ipynb template can be found in the <a href="https://colab.research.google.com/drive/1A6azpUOCUU923JF5B4v7t2pNSzLAQ20t?usp=sharing">Assignment 1 template</a></p>
+  
+  
