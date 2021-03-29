@@ -31,6 +31,7 @@ In this Data Preprocessing section, you are required to implement the following 
 <h2>2. Model Implementation</h2>
 <p>In this section, you are to implement three components, including Word Embedding module, Lexicon Embedding module, and Bi-directional RNN Sequence model. For training, you are free to choose hyperparameters <b><i>[Lab5]</i></b> (e.g. size of vector for embeddings, learning rate, epochs, etc.)</p>
 
+
 <h3>1)Word Embedding</h3>
 First, you are asked to build the word embedding model (for representing word vectors, such as word2vec-CBOW, word2vec-Skip gram, fastText, and Glove) for the input embedding of your sequence model <b><i>[Lab2]</i></b>. Note that we used a one-hot vector as an input for the sequence model <i>in the Lab3 and Lab4</i>. In order to build the word embedding model, you are required to implement the following functions:
 <ul>
@@ -42,11 +43,14 @@ First, you are asked to build the word embedding model (for representing word ve
 </ul>
   
 
-<h3>2)Word Embedding</h3>
-First, you are asked to b
+<h3>2)Lexicon Embedding</h3>
+<p>Then, you are to check whether each word is in the positive or negative lexicon. In this assignment, we will use the <a href="http://www.cs.uic.edu/~liub/FBS/opinion-lexicon-English.rar">Opinion Lexicon</a>, which includes a list of english positive and negative opinion words or sentiment words.<br/>
+Each word needs to be converted into one-dimensional categorical embedding with three categories, such as not_exist(0), negative(1), and positive(2).
+This 0,1,2 categories will be used for the input for the Section 2.3 Bi-directional RNN Sequence model. <br/>
+NOTE: If you want to use more than one-dimensional or not using categorical embedding, please <b>(Justify your decision)</b> </p>
 
 
-
+<h3>3)</h3>
 While the model is being trained, you are required to display the Training Loss and the Number of Epochs. 
 
 
