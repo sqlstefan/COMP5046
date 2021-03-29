@@ -61,10 +61,11 @@ Finally, you are asked to build the Many-to-One (N to 1) Sequence model in order
   <li><b>Build training sequence model</b>: You are to build the Bi-directional RNN-based (Bi-RNN or Bi-LSTM or Bi-GRU) Many-to-One (N to One) sequence model (N: word, One: Sentiment - Positive or Negative). You are required to describe how hyperparameters <b><i>[Lab4,Lab5]</i></b> (the Number of Epochs, learning rate, etc.) were decided. <b>(Justify your decision)</b> </li>
   
   <li><b>Train model</b>: While the model is being trained, you are required to display the Training Loss and the Number of Epochs. <b><i>[Lab4,Lab5]</i></b> </li>
+</ul>
+
+<h5>Note that your assignment 1 will not be marked if you do not display the Training Loss and the Number of Epochs.</h5>
 
 
-
-While the model is being trained, you are required to display the Training Loss and the Number of Epochs. 
 
 <br/>
 <hr>
