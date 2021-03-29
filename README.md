@@ -1,2 +1,3 @@
-# COMP5046
-Assignment Specification
+# COMP5046 Assignment 1
+
+<h1> 
