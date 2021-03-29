@@ -59,7 +59,7 @@ NOTE: If you want to use more than one-dimensional or not using categorical embe
 <h3>3)Bi-directional RNN Sequence Model <b>(3 marks)</b></h3>
 Finally, you are asked to build the Many-to-One (N to 1) Sequence model in order to detect the sentiment/emotion. Note that your model should be the best model selected from the evaluation (will be discussed in the Section 3. Evaluation). You are required to implement the following functions:
 <ul>
-  <li><b>Apply/Import Word and Lexicon Embedding as an input</b>: You are to apply the trained word embedding and lexicon embedding to the sequence model</li>
+  <li><b>Apply/Import Word and Lexicon Embedding as an input</b>: You are to concatenate the trained word embedding and lexicon embedding, and apply to the sequence model</li>
   
   <li><b>Build training sequence model</b>: You are to build the Bi-directional RNN-based (Bi-RNN or Bi-LSTM or Bi-GRU) Many-to-One (N to One) sequence model (N: word, One: Sentiment - Positive or Negative). You are required to describe how hyperparameters <b><i>[Lab4,Lab5]</i></b> (the Number of Epochs, learning rate, etc.) were decided. <b>(Justify your decision)</b> </li>
   
