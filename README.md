@@ -1,4 +1,6 @@
 # COMP5046 Assignment 1 [Individual Assessment] (20 marks)
+<h2>Submission Due: May 2nd, 2021 (11:59PM)</h2>
+
 
 <b>[XXX] = Lecture/Lab Reference</b><br/>
 <b>(Justify your decision) = Please justify your decision/selection in the documentation</b>
@@ -6,7 +8,7 @@
 
 <br>
 
-<h2>Submission Due: May 2nd, 2021 (11:59PM)</h2>
+
 
 
 <h1>Sentiment Analysis using Recurrent Neural Networks</h1>
