@@ -2,6 +2,8 @@
 
 <b>[XXX] = Lecture/Lab Reference</b><br/>
 <b>(Justify your decision) = Please justify your decision/selection in the documentation</b>
+<b>(Explain the performance) = Please explain the trend of performance, and the reason (or your opinion) why the trends show like that</b>
+
 
 
 <h1>Sentiment Analysis using Recurrent Neural Networks</h1>
@@ -73,7 +75,16 @@ Finally, you are asked to build the Many-to-One (N to 1) Sequence model in order
 
 
 <h2>3. Evaluation</h2>
-<p>In this assignment, you are to use the [dataset description]</p>
+<p>After completing all model training (in Section 1 and 2), you should evaluate two points:</p>
+<ol>
+  <li><b>Word Embedding Evaluation</b>: Intrinsic Evaluation</li>
+  
+  <li><b>Performance Evaluation</b>: You are to represent the precision, recall, and f1 - refer to lab4 of your model in the table [Explain the performance]</li>
+  
+  <li><b>Hyperparameter Testing</b>: You are to provide the line graph, which shows the hyperparameter testing (with the test dataset) and explain the optimal number of epochs based on the learning rate you choose. You can have multiple graphs with different learning rates. In the graph, the x-axis would be # of epoch and the y-axis would be the f1. [Explain the performance]</li>
+  
+  apply the trained model to the test set. (Note: we just provide only train and test sets. No need to create validation dataset or do the cross-validation)
+</p>
 ddd
 <br/>
 <hr>
@@ -81,7 +92,7 @@ ddd
 
 
 <h2>4. Documentation</h2>
-<p>In the section 1,2, and 3, you are required to describe and justify any decisions you made for the final implementation. You can find the tag ‘[Justify your decision]’ for the point that you should justify the purpose of applying the specific technique/model.<br/>
+<p>In the section 1,2, and 3, you are required to describe and justify any decisions you made for the final implementation. You can find the tag <b>(Justify your decision)</b> or <b>(Explain the performance)</b> for the point that you should justify the purpose of applying the specific technique/model and explain the performance.<br/>
 For example, for section 1 (preprocess data), you need to describe which pre-processing techniques (removing numbers, converting to lowercase, removing stop words, stemming, etc.) were conducted and justify your decision (the purpose of choosing a specific pre-processing techniques, and benefit of using that technique or the integration of techniques for your AI) in your ipynb file</p>
   
 <br/>
