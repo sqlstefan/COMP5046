@@ -29,7 +29,7 @@ In this Data Preprocessing section, you are required to implement the following 
 
 
 <h2>2. Model Implementation</h2>
-<p>In this section, you are to implement three components, including Word Embedding module, Lexicon Embedding module, and Bi-directional RNN Sequence model. For training, you are free to choose hyperparameters <b><i>[Lab5]</i></b> (e.g. size of vector for embeddings, learning rate, epochs, etc.)</p>
+<p>In this section, you are to implement three components, including Word Embedding module, Lexicon Embedding module, and Bi-directional RNN Sequence model. For training, you are free to choose hyperparameters <b><i>[Lab5]</i></b> (e.g. dimension of embeddings, learning rate, epochs, etc.)</p>
 
 
 <h3>1)Word Embedding</h3>
@@ -37,14 +37,14 @@ First, you are asked to build the word embedding model (for representing word ve
 <ul>
   <li><b>Preprocess data for word embeddings</b>: You are to use and preprocess NLTK Twitter dataset (the one provided in the <i>Section 1</i>) for word embeddings  <b><i>[Lab2, Lab3]</i></b>. This can be different from the preprocessing technique that you used in Section 1. You can use both training and testing dataset in order to train the word embedding. <b>(Justify your decision)</b> </li>
   
-  <li><b>Build training model for word embeddings</b>: You are to build the training model for word embeddings. You are required to articulate the hyperparameters <b><i>[Lab4]</i></b> you chose (size of vector for embeddings, learning rate, etc.). Note that any word embeddings model <b><i>[Lab2]</i></b> (e.g. word2vec-CBOW, word2vec-Skip gram, fasttext, glove) can be applied. <b>(Justify your decision)</b> </li>
+  <li><b>Build training model for word embeddings</b>: You are to build the training model for word embeddings. You are required to articulate the hyperparameters <b><i>[Lab4]</i></b> you chose (dimension of embeddings, window size, learning rate, etc.). Note that any word embeddings model <b><i>[Lab2]</i></b> (e.g. word2vec-CBOW, word2vec-Skip gram, fasttext, glove) can be applied. <b>(Justify your decision)</b> </li>
   
   <li><b>Train model</b>: You are to train the model in PyTorch.</li>
 </ul>
   
 
 <h3>2)Lexicon Embedding</h3>
-<p>Then, you are to check whether each word is in the positive or negative lexicon. In this assignment, we will use the <a href="http://www.cs.uic.edu/~liub/FBS/opinion-lexicon-English.rar">Opinion Lexicon</a>, which includes a list of english positive and negative opinion words or sentiment words.<br/>
+<p>Then, you are to check whether each word is in the positive or negative lexicon. In this assignment, we will use the <a href="http://www.cs.uic.edu/~liub/FBS/opinion-lexicon-English.rar">Opinion Lexicon</a>, which includes a list of english positive and negative opinion words or sentiment words. <b>(2006 positive and 4783 negative words)</b><br/>
 Each word needs to be converted into one-dimensional categorical embedding with three categories, such as not_exist(0), negative(1), and positive(2).
 This 0,1,2 categories will be used for the input for the Section 2.3 Bi-directional RNN Sequence model. <br/>
 NOTE: If you want to use more than one-dimensional or not using categorical embedding, please <b>(Justify your decision)</b> </p>
