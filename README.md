@@ -25,7 +25,7 @@ Sentiment analysis <b>[Lecture5]</b> is contextual mining of text which identifi
 <p>In this assignment, you are to use the <b>NLTK's Twitter_Sample</b> dataset. Twitter is well-known microblog service that allows public data to be collected via APIs. NLTK's twitter corpus currently contains a sample of Tweets retrieved from the Twitter Streaming API. If you want to know the more detailed info for the nltk.corpus, please check the <a href="https://www.nltk.org/howto/corpus.html">nltk corpus website</a>.<br/>
 The dataset contains twitter posts (tweets) along with their associated binary sentiment polarity labels. Both the training and testing sets are provided in the form of pickle files (testing_data.pkl, training_data.pkl) and can be downloaded from the Google Drive using the provided code in the <b><a href="https://colab.research.google.com/drive/1A6azpUOCUU923JF5B4v7t2pNSzLAQ20t?usp=sharing">Assignment 1 Template ipynb</a></b>.</p>
 <p>
-In this Data Preprocessing section, you are required to implement the following functions:</br>
+In this Data Preprocessing section, you are required to complete the following section in the format:</br>
 <ul>
   <li><b>Preprocess data</b>: You are asked to pre-process the training set by integrating several text pre-processing techniques <b><i>[Lab5]</i></b> (e.g. tokenisation, removing numbers, converting to lowercase, removing stop words, stemming, etc.). You should justify the reason why you apply the specific preprocessing techniques <b>(Justify your decision)</b>
   </li>
