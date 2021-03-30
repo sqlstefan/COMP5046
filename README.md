@@ -95,7 +95,6 @@ Finally, you are asked to build the Many-to-One (N to 1) Sequence model in order
 </p>
 
 <h5>Note that it will not be marked if you do not display it in the ipynb file.</h5>
-<h5>Note: Please don't bother about the high/low accuracy as this recurrent model is not advanced, and our training dataset is very small</h5> 
 
 
 <br/>
@@ -129,6 +128,11 @@ For example, for section 1 (preprocess data), you need to describe which pre-pro
 <p>
   <b>Question:</b> Is there any marking scheme/marking criteria available for assignment 1?<br/>
   <b>Answer:</b> The assignment specification is extremely detailed. The marking will be conducted based on the specification.
+</p>
+
+<p>
+  <b>Question:</b> My Word Embedding/ Sentiment Analysis performs really bad (Low accuracy). What did i do wrong?<br/>
+  <b>Answer:</b> Please don't bother about the low accuracy as our training dataset is very small and your model is very basic deep learning model. 
 </p>
 
 <h5>If you have any question, please come to LiveQA and post it in the Edstem anytime!</h5>
