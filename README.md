@@ -39,7 +39,7 @@ In this Data Preprocessing section, you are required to implement the following 
 
 
 <h2>2. Model Implementation <b>(7 marks)</b></h2>
-<p>In this section, you are to implement three components, including Word Embedding module, Lexicon Embedding module, and Bi-directional RNN Sequence Model. For training, you are free to choose hyperparameters <b><i>[Lab2,Lab4,Lab5]</i></b> (e.g. dimension of embeddings, learning rate, epochs, etc.)</p>
+<p>In this section, you are to implement three components, including Word Embedding module, Lexicon Embedding module, and Bi-directional RNN Sequence Model. For training, you are free to choose hyperparameters <b><i>[Lab2,Lab4,Lab5]</i></b> (e.g. dimension of embeddings, learning rate, epochs, etc.). You must show your final decision in your report with empirical evidence.</p>
 
 <img src="https://github.com/usydnlp/COMP5046/blob/main/img/COMP5046_A1_img1.png" width="500px"/>
 
