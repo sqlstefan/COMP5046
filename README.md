@@ -52,7 +52,7 @@ First, you are asked to build a word embedding model (for representing word vect
   
   <li><b>Build training model for word embeddings</b>: You are to build a training model for word embeddings. You are required to articulate the hyperparameters <b><i>[Lab2]</i></b> you chose (dimension of embeddings, window size, learning rate, etc.). Note that any word embeddings model <b><i>[Lab2]</i></b> (e.g. word2vec-CBOW, word2vec-Skip gram, fasttext, glove) can be applied. <b>(Justify your decision)</b> </li>
   
-  <li><b>Train model</b>: You are to train the model in PyTorch.</li>
+  <li><b>Train model</b>: You are to train the model.</li>
 </ul>
   
 
@@ -85,7 +85,8 @@ Finally, you are asked to build the Many-to-One (N to 1) Sequence model in order
 <h2>3. Evaluation (7 marks)</h2>
 <p>After completing all model training (in Section 1 and 2), you should evaluate two points: 1)Word Embedding Evaluation and 2)Sentiment Analysis Performance Prediction (Apply the trained model to the test set)</p>
 <ol>
-  <li><b>Word Embedding Evaluation (3 marks)</b>: Intrinsic Evaluation <b><i>[Lecture3]</i></b> - You are required to apply Semantic-Syntactic word relationship tests for understanding of a wide variety of relationships. The example code is provided <a href="https://colab.research.google.com/drive/1VdNkQpeI6iLPHeTsGe6sdHQFcGyV1Kmi?usp=sharing">here - Word Embedding Intrinsic Evaluation</a> (This is discussed and explained in the <b><i>[Lecture5 Recording]</i></b> ). You also are to visualise the result (the example can be found in the Table 2 and Figure 2 from the <a href="https://nlp.stanford.edu/pubs/glove.pdf">Original GloVe Paper</a>) <b>(Explain the performance)</b> </li>
+  <li><b>Word Embedding Evaluation (3 marks)</b>: Intrinsic Evaluation <b><i>[Lecture3]</i></b> - You are required to apply Semantic-Syntactic word relationship tests for understanding of a wide variety of relationships. The example code is provided <a href="https://colab.research.google.com/drive/1VdNkQpeI6iLPHeTsGe6sdHQFcGyV1Kmi?usp=sharing">here - Word Embedding Intrinsic Evaluation</a> (This is discussed and explained in the <b><i>[Lecture5 Recording]</i></b> ). You also are to visualise the result (the example can be found in the Table 2 and Figure 2 from the <a href="https://nlp.stanford.edu/pubs/glove.pdf">Original GloVe Paper</a>) <b>(Explain the performance)</b> 
+ </li>
   
   <li><b>Performance Evaluation (2 marks)</b>: You are to represent the precision, recall, and f1 <b><i>[Lab4]</i></b> of your model in the table <b>(Explain the performance)</b></li>
   
@@ -94,6 +95,7 @@ Finally, you are asked to build the Many-to-One (N to 1) Sequence model in order
 </p>
 
 <h5>Note that it will not be marked if you do not display it in the ipynb file.</h5>
+<h5>Note: Please don't bother about the high/low accuracy as this recurrent model is not advanced, and our training dataset is very small</h5> 
 
 
 <br/>
