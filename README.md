@@ -57,7 +57,7 @@ First, you are asked to build a word embedding model (for representing word vect
   
 
 <h3>2)Lexicon Embedding <b>(2 marks)</b></h3>
-<p>Then, you are to check whether each word is in the positive or negative lexicon. In this assignment, we will use the <a href="http://www.cs.uic.edu/~liub/FBS/opinion-lexicon-English.rar">Opinion Lexicon</a>, which includes a list of english positive and negative opinion words or sentiment words. <b>(2006 positive and 4783 negative words)</b><br/>
+<p>Then, you are to check whether each word is in the positive or negative lexicon. In this assignment, we will use the <a href="http://www.cs.uic.edu/~liub/FBS/opinion-lexicon-English.rar">Opinion Lexicon</a> (If you cannot downalod this, please right click and open in a new page or You can directly download from the data folder in this github), which includes a list of english positive and negative opinion words or sentiment words. <b>(2006 positive and 4783 negative words)</b><br/>
 Each word needs to be converted into one-dimensional categorical embedding with three categories, such as not_exist(0), negative(1), and positive(2).
 This 0,1,2 categories will be used for the input for the Section 2.3 Bi-directional RNN Sequence model. <br/>
 NOTE: If you want to use more than one-dimensional or not using categorical embedding, please <b>(Justify your decision)</b> </p>
