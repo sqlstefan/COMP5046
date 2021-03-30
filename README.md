@@ -46,7 +46,7 @@ In this Data Preprocessing section, you are required to implement the following 
 <p>The model architecture can be found in the <b><i>[Lecture5]</i></b></p>
 
 <h3>1)Word Embedding <b>(2 marks)</b></h3>
-First, you are asked to build a word embedding model (for representing word vectors, such as word2vec-CBOW, word2vec-Skip gram, fastText, and Glove) for the input embedding of your sequence model <b><i>[Lab2]</i></b>. Note that we used one-hot vectors as inputs for the sequence model <i>in the Lab3 and Lab4</i>. In order to build the word embedding model, you are required to implement the following functions:
+First, you are asked to build a word embedding model (for representing word vectors, such as word2vec-CBOW, word2vec-Skip gram, fastText, and Glove) for the input embedding of your sequence model <b><i>[Lab2]</i></b>. Note that we used one-hot vectors as inputs for the sequence model <i>in the Lab3 and Lab4</i>. In order to build the word embedding model, you are required to complete the following sections in the format:
 <ul>
   <li><b>Preprocess data for word embeddings</b>: You are to use and preprocess NLTK Twitter dataset (the one provided in the <i>Section 1</i>) for word embeddings  <b><i>[Lab2]</i></b>. This can be different from the preprocessing technique that you used in Section 1. You can use both training and testing dataset in order to train the word embedding. <b>(Justify your decision)</b> </li>
   
