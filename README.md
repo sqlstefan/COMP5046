@@ -50,7 +50,7 @@ First, you are asked to build a word embedding model (for representing word vect
 <ul>
   <li><b>Preprocess data for word embeddings</b>: You are to use and preprocess NLTK Twitter dataset (the one provided in the <i>Section 1</i>) for word embeddings  <b><i>[Lab2]</i></b>. This can be different from the preprocessing technique that you used in Section 1. You can use both training and testing dataset in order to train the word embedding. <b>(Justify your decision)</b> </li>
   
-  <li><b>Build training model for word embeddings</b>: You are to build the training model for word embeddings. You are required to articulate the hyperparameters <b><i>[Lab2]</i></b> you chose (dimension of embeddings, window size, learning rate, etc.). Note that any word embeddings model <b><i>[Lab2]</i></b> (e.g. word2vec-CBOW, word2vec-Skip gram, fasttext, glove) can be applied. <b>(Justify your decision)</b> </li>
+  <li><b>Build training model for word embeddings</b>: You are to build a training model for word embeddings. You are required to articulate the hyperparameters <b><i>[Lab2]</i></b> you chose (dimension of embeddings, window size, learning rate, etc.). Note that any word embeddings model <b><i>[Lab2]</i></b> (e.g. word2vec-CBOW, word2vec-Skip gram, fasttext, glove) can be applied. <b>(Justify your decision)</b> </li>
   
   <li><b>Train model</b>: You are to train the model in PyTorch.</li>
 </ul>
