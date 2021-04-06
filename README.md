@@ -137,7 +137,8 @@ For example, for section 1 (preprocess data), you need to describe which pre-pro
 
 <p>
   <b>Question:</b> Do I need to use only NLTKTwitter dataset for training the word embedding?<br/>
-  <b>Answer:</b> No, as mentioned in the lecture 5 (assignment 1 specification description), you can use any dataset (including TED, Google News) or NLTKtwitter dataset for training your word embedding. Word embedding is just for training the word meaning space so you can use any data. Hence, this is different from training the Bi-RNN prediction model for sentiment analysis. For the sentiment analysis, you should use only training dataset (NLTK twitter dataset that we provided in the assignment 1 template)
+  <b>Answer:</b> No, as mentioned in the lecture 5 (assignment 1 specification description), you can use any dataset (including TED, Google News) or NLTKtwitter dataset for training your word embedding. Word embedding is just for training the word meaning space so you can use any data. 
+  Note: Training word embedding is different from training the Bi-RNN prediction model for sentiment analysis. For the Bi-RNN sentiment analysis model training, you should use only training dataset (from  the NLTK twitter dataset that we provided in the assignment 1 template)
 </p>
   
 
